@@ -26,6 +26,8 @@
 - `./` tells the shell to run a file from the current directory.
 - Without `./`, the shell only searches executable files inside `$PATH`.
 
+
+
 **Script structure:**
 A minimal Bash script usually looks like this:
 ```bash
@@ -78,4 +80,6 @@ chmod +x hello_devops.sh
 
 
 End of Day 1. 2026 June 29
+
+
 
