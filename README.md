@@ -31,7 +31,7 @@
 **Script structure:**
 A minimal Bash script usually looks like this:
 ```bash
-#!/usr/bin/env bash
+  /usr/bin/env bash
 
 echo "Hello from Bash!"
 
