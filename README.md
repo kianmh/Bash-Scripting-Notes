@@ -26,15 +26,13 @@
 - `./` tells the shell to run a file from the current directory.
 - Without `./`, the shell only searches executable files inside `$PATH`.
 
+``bash
 
-
-**Script structure:**
 A minimal Bash script usually looks like this:
 ```bash
-  /usr/bin/env bash
+#!/usr/bin/env bash
 
 echo "Hello from Bash!"
-
 
 
     Create a script file:
@@ -67,6 +65,7 @@ Practice:
                                                                     
 nano hello_devops.sh
 
+                                                                    
 #!/usr/bin/env bash
 
 echo "Welcome to DevOps Journey"
@@ -77,6 +76,8 @@ echo "Date: $(date)"
                                                                     
 chmod +x hello_devops.sh
 ./hello_devops.sh
+
+                                                                    
 
 
 End of Day 1. 2026 June 29
